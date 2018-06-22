@@ -5,7 +5,6 @@ r=int(input("enter radius of circle"))
 print("Area= ",area(r))
 
 
-
 #Q2. Perfect Number
 def perfect():
   for no in range(1,1000):
