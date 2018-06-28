@@ -1,0 +1,54 @@
+Q1. Differnce between JSON and XML files
+
+Ans. JSON stands for Javascript Object Notation whereas XML stands for Extensible Markup Language
+The fundamental difference between XML and JSON is that XML is a meta-language and JSON is a markup language that is used to add extra information to the free-flowing plain text. By contrast, JSON syntax has specific semantics built in: stuff between {} is an object, stuff between [] is an array, etc. It basically follows a common key-value pair to represent the data. Since JSON looks more like the data structures we declare in programming languages, it becomes easy to access the data packed in this format. A JSON parser, therefore, knows exactly what every JSON document means.
+On the other hand, XML has "elements" versus "attributes". This looks like the same kind of distinction, but it's not, because attributes can only have string values. They cannot be nested objects.
+
+
+
+
+Q2. Get the IP address of some common sites like Google, Facebook by using DNS lookup.
+
+Ans. Google:-
+www.google.com has address 172.217.23.228
+www.google.com has IPv6 address 2a00:1450:4001:815::2004
+
+Facebook:-
+www.facebook.com is an alias for star-z-mini.c10r.facebook.com.
+star-z-mini.c10r.facebook.com has address 31.13.72.38
+star-z-mini.c10r.facebook.com has IPv6 address 2a03:2880:f10a:86:face:b00c:0:50fb
+
+
+
+
+Q3. How http works. Explain get, post, put and delete protocols
+
+Ans. HTTP protocol works in a client and server model like many other protocol. A web browser using which a request is initiated is called as a client and a web server software which respond's to that request is called as a server. HTTP uses the following CRUD(Create, Run, Update, Delete) operations to work:-
+
+1.GET-On getting the GET request from the client, the server responds, by revealing some information about itself, and metadata about the data asked by the client, along with the data.
+2.POST-POST request is mostly used to send data from the client to the server. Let's see an example of HTTP post request from the client to the server.
+3.PUT-HTTP put request is very much similar to the post request. PUT request sends or creates a resource in the specified URI.
+4.DELETE-HTTP delete request deletes a specified resource on a specified URI.
+
+
+
+
+Q4. What is a difference between library and API . Figure it out with examples.
+
+Ans. A library is a collection of functions / objects that serves one particular purpose. You could use a library in a variety of projects. It is written in same language which is a collection of all the functionalities required
+for the use case.
+
+For Example:
+Numpy is a library of Python, adding support for large, multi-dimensional
+arrays and matrices, along with a large collection of high-level mathematical functions to
+operate on these arrays.
+
+
+An API is an interface for other programs to interact with your program or library  without having direct access. It is basically a part of library which defines how an application should communicate with external code. It can be written in any language.
+
+For Example:
+Uber ,Ola uses Google Maps API to show navigations and ways . API can be used to Get , create , update and delete the data. API return responses in the form of JSON format that represents data in key value pair.
+
+To put it another way, a library as an add-on / piece of an application and an API as an outward-facing part of said application.
+
+
